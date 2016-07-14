@@ -1,2 +1,2 @@
 ### steamer-repo
-a repor to manage list of starter kits
+a repo to manage list of starter kits

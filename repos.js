@@ -5,43 +5,18 @@
 
 module.exports = {
     'steamer-react': {
-        git: 'https://github.com/SteamerTeam/steamer-react.git -b react',
-        config: {
-            src: "./react/",
-            cmds: {
-                dev: "npm run dev", 
-                pub: "npm run pub",
-            },
-        },
+        git: 'https://github.com/SteamerTeam/steamer-react.git -b react'
     },
     'steamer-react-isomorphic': {
-        git: 'https://github.com/SteamerTeam/steamer-react.git -b react-isomorphic',
-        config: {
-            src: "./react/",
-            cmds: {
-                dev: "npm run dev", 
-                pub: "npm run pub",
-            },
-        },
+        git: 'https://github.com/SteamerTeam/steamer-react.git -b react-isomorphic'
     },
     'steamer-koa': {
-        git: 'https://github.com/SteamerTeam/steamer-koa.git',
-        config: {
-            src: "./koa/",
-            cmds: {
-                dev: "npm start", 
-                pub: "",
-            },
-        },
+        git: 'https://github.com/SteamerTeam/steamer-koa.git'
     },
     'steamer-gulp': {
-        git: 'https://github.com/SteamerTeam/steamer-gulp.git',
-        config: {
-            src: "./normal/",
-            cmds: {
-                dev: "npm run dev", 
-                pub: "npm run pub",
-            },
-        },
+        git: 'https://github.com/SteamerTeam/steamer-gulp.git'
+    },
+    'simple': {
+        git: 'https://github.com/rehorn/slush-alloyteam-simple.git'
     }
 };
